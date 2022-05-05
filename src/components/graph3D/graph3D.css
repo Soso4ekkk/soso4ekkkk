@@ -1,0 +1,234 @@
+.graph3D {
+    text-align: left;
+}
+
+canvas {
+    margin-left: 385px;
+}
+
+.checkbox {
+    left: 35px;
+    top: 70px;
+    position: absolute;
+    font-size: 15pt;
+    width: 200px;
+    font-family: monospace;
+    font-size: 16pt;
+}
+
+.check3D {
+    -webkit-appearance: none;
+    border: 1px solid #ffffff;
+    width: 15px;
+    height: 15px;
+    margin-bottom: -3px;
+    margin-left: 5px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.check3D:checked {
+    background: #ffc8fc;
+    transform: scale(1.5);
+}
+
+.check3D:hover {
+    background: #ffc8fc;
+    transform: scale(1.5);
+}
+
+.figures {
+    left: 35px;
+    top: 250px;
+    position: absolute;
+    height: 40px;
+    width: 325px;
+    font-size: 16pt;
+    background: #ffd8fd;
+    border: 1px solid #ffd8fc;
+    font-family: monospace;
+    outline: 0;
+    cursor: pointer;
+}
+
+.figures:hover {
+    background: #ffc8fc;
+}
+
+.delate {
+    background: #ffd8fd;
+    color: rgb(0, 0, 0);
+    font-size: 13pt;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ffd8fc;
+    border-radius: 0px;
+    left: 25px;
+    top: 295px;
+    position: absolute;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.delate:hover {
+    background: #ffc8fc;
+}
+
+.powerlight {
+    -webkit-appearance: none;
+    border: 1px solid #ffc8fc;
+    border-radius: 7px;
+    left: 35px;
+    top: 385px;
+    position: absolute;
+    height: 11px;
+    width: 325px;
+    border: none;
+    cursor: pointer;
+}
+
+.powerlight::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: url(/src/images/slider.png);
+    height: 39px;
+    width: 39px;
+}
+
+.powerlight:hover {
+    transform: scale(1.05);
+}
+
+.color {
+    left: 37px;
+    top: 425px;
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    background-color: #ffd8fd;
+    border: 0px;
+    cursor: pointer;
+}
+
+.color::-webkit-color-swatch {
+    border: 0px;
+}
+
+.color:hover {
+    transform: scale(1.05);
+}
+
+.keysW {   
+    left: 1050px;
+    top: 40px;
+    position: absolute;
+    border: 1px solid #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;    
+    border-radius: 5px;
+}
+
+.keysRules { 
+    font-size: 20pt;
+    font-family: monospace;
+    color: #e2228c;
+    cursor: default;
+}
+
+.keysA {   
+    left: 1000px;
+    top: 90px;
+    position: absolute;
+    border: 1px solid #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;    
+    border-radius: 5px;
+}
+
+.keysS {   
+    left: 1050px;
+    top: 90px;
+    position: absolute;
+    border: 1px solid #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;    
+    border-radius: 5px;
+}
+
+.keysD {   
+    left: 1100px;
+    top: 90px;
+    position: absolute;
+    border: 1px solid #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;    
+    border-radius: 5px;
+}
+
+.keys1 {   
+    left: 1050px;
+    top: 170px;
+    position: absolute;
+    border: 1px solid #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;    
+    border-radius: 5px;
+}
+
+.keys2 {   
+    left: 1000px;
+    top: 220px;
+    position: absolute;
+    border: 1px solid #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;    
+    border-radius: 5px;
+}
+
+.keys3 {   
+    left: 1050px;
+    top: 220px;
+    position: absolute;
+    border: 1px solid #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;    
+    border-radius: 5px;
+}
+
+.keys4 {   
+    left: 1100px;
+    top: 220px;
+    position: absolute;
+    border: 1px solid #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;    
+    border-radius: 5px;
+}
+
+.textRules {
+    left: 1160px;
+    top: 80px;
+    position: absolute;
+    cursor: default;
+}
+
+.text {
+    font-family: monospace;
+    font-size: 13pt;
+    margin-bottom: 110px;
+}

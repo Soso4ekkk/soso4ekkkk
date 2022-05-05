@@ -1,0 +1,65 @@
+/***************фон***************/
+body {
+    background-color: #ffe0fd;
+}
+
+/****************************для мема****************************/
+.img {
+    height: 360px;
+    top: 410px;
+    left:  1050px;
+    position: fixed;
+}
+
+.block_1 {
+    position: fixed;
+    z-index: 1;
+    top: 332px;
+    left: 1208px;
+    width: 60px;
+    height: 70px;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url('/src/images/lolOne.png');
+    cursor: pointer;
+}
+
+.block_1:hover {
+    background-size: cover;
+    background-image: url('/src/images/lolTwo.png');
+}
+
+.block_1:hover .block_2 {
+    visibility: visible;
+}
+
+.block_1:hover .block_3 {
+    visibility: visible;
+}
+
+.block_2 {
+    position: fixed;
+    visibility: hidden;
+    top: 390px;
+    left: 970px;
+}
+
+.block_3 {
+    position: fixed;
+    visibility: hidden;
+    top: 380px;
+    left: 995px;
+    width: 210px;
+    height: 85px;
+    text-align: center;
+    background: #ffc8fc;
+    font-size: 13pt;
+    font-family: monospace;
+}
+
+.block_2 img {
+    width: 250px;
+    height: 500px;
+}
+
+/****************************************************************/
