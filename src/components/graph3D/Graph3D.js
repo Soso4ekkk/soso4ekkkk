@@ -146,7 +146,7 @@ class Graph3D extends React.Component {
     /*************************************вращения*************************************/
     mouseMove(e) {
         const gradus = Math.PI / 180 / 4; 
-        const matrix1 = this.math.rotateOx((this.dx - e.clientX) * gradus);
+        const matrix1 = this.math.rotateOy((this.dx - e.clientX) * gradus);
         const matrix2 = this.math.rotateOx((this.dy - e.clientY) * gradus);
         const matrix = this.math.multMatrixes(matrix1, matrix2);
         if (this.canMove) {
