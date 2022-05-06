@@ -241,15 +241,15 @@ class Panel3D extends React.Component {
                     <option>цилиндр</option>
                     <option>тор</option>
                     <option>эллипсоид</option>
-                    <option>эллиптический&nbsp;параболоид</option>
-                    <option>эллиптический&nbsp;цилиндр</option>
-                    <option>однополостный&nbsp;гиперболоид</option>
-                    <option>двухполостный&nbsp;гиперболоид</option>
-                    <option>гиперболический&nbsp;цилиндр</option>
-                    <option>гиперболический&nbsp;параболоид</option>
-                    <option>параболический&nbsp;цилиндр</option>
-                    <option>сюрприз&nbsp;:)</option>
-                    <option>солнечная&nbsp;система</option>
+                    <option>эллиптический параболоид</option>
+                    <option>эллиптический цилиндр</option>
+                    <option>однополостный гиперболоид</option>
+                    <option>двухполостный гиперболоид</option>
+                    <option>гиперболический цилиндр</option>
+                    <option>гиперболический параболоид</option>
+                    <option>параболический цилиндр</option>
+                    <option>сюрприз :)</option>
+                    <option>солнечная система</option>
                 </select>
                 <button className="delate" onClick={() => this.delateFigure()}>удалить</button>
                 <input 
