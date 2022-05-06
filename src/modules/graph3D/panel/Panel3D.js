@@ -1,21 +1,21 @@
 import React from "react";
 
-import cone from '../../../modules/graph3D/figures/cone';
-import cube from '../../../modules/graph3D/figures/cube';
-import sphera from '../../../modules/graph3D/figures/sphera';
-import cylinder from '../../../modules/graph3D/figures/cylinder';
-import tor from '../../../modules/graph3D/figures/tor';
-import ellipsoid from '../../../modules/graph3D/figures/ellipsoid';
-import ellipticalCylinder from '../../../modules/graph3D/figures/ellipticalCylinder';
-import ellipticalParaboloid from '../../../modules/graph3D/figures/ellipticalParaboloid';
-import hyperbolicCylinder from '../../../modules/graph3D/figures/hyperbolicCylinder';
-import hyperbolicParaboloid from '../../../modules/graph3D/figures/hyperbolicParaboloid';
-import oneSheetedHyperboloid from '../../../modules/graph3D/figures/oneSheetedHyperboloid';
-import twoSheetedHyperboloid from '../../../modules/graph3D/figures/twoSheetedHyperboloid';
-import parabolicCylinder from '../../../modules/graph3D/figures/parabolicCylinder';
-import surprise from '../../../modules/graph3D/figures/surprise';
+import cone from '../figures/cone';
+import cube from '../figures/cube';
+import sphera from '../figures/sphera';
+import cylinder from '../figures/cylinder';
+import tor from '../figures/tor';
+import ellipsoid from '../figures/ellipsoid';
+import ellipticalCylinder from '../figures/ellipticalCylinder';
+import ellipticalParaboloid from '../figures/ellipticalParaboloid';
+import hyperbolicCylinder from '../figures/hyperbolicCylinder';
+import hyperbolicParaboloid from '../figures/hyperbolicParaboloid';
+import oneSheetedHyperboloid from '../figures/oneSheetedHyperboloid';
+import twoSheetedHyperboloid from '../figures/twoSheetedHyperboloid';
+import parabolicCylinder from '../figures/parabolicCylinder';
+import surprise from '../figures/surprise';
 
-import Planets from "../../../modules/graph3D/figures/Planets";
+import Planets from "../figures/Planets";
 
 class Panel3D extends React.Component {
     constructor(props) {

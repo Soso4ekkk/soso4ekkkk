@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Canvas from '../../modules/canvas/Canvas';
-import Math3D from './Math';
-import Panel3D from './panel/Panel3D';
+import Math3D from '../../modules/graph3D/Math';
+import Panel3D from '../../modules/graph3D/panel/Panel3D';
 
 import Light from '../../modules/graph3D/entities/Light';
 import Point from '../../modules/graph3D/entities/Point';

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import TextArea from './textArea/TextArea';
+import TextArea from '../../modules/calculator/textArea/TextArea';
 import UniversalCalculator from '../../modules/calculator/UniversalCalculator';
 
 import './calculator.css';
